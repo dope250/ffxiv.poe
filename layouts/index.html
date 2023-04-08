@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ $headless := .Site.GetPage "/homepage" }}
+{{ $sections := $headless.Resources.ByType "page" }}
+{{ $sections := cond .Site.BuildDrafts $sections (where $sections "Draft" "==" false) }}
+{{ $filtered := where $sections "Params.external" "==" nil }}
+
+<header id="site-head">
+
+    <div class="vertical">
+        <div id="site-head-content" class="inner">
+            {{ if .Site.Params.title_guard }}<div class="title-and-description-guard">{{ end }}
+            {{ with .Params.header_headline }}<h1 class="blog-title">{{ . | safeHTML }}{{ end }} <br/>
+            {{ with .Params.header_logo }}<img src="{{ . }}" width="550">{{ end }} </h1>
+            {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
+            {{ if .Site.Params.title_guard }}</div>{{ end }}
+            {{ range where $sections ".Params.header_menu" "eq" true }}
+              {{ if isset .Params "external" }}
+                 <a class='btn site-menu' href='{{ .Params.external  }}'>{{ .Title }} <icon class="fa fa-external-link"></icon></a>
+              {{ else }}
+                 <a class='btn site-menu' data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a>
+              {{ end }}
+            {{ end }}
+            <i id='header-arrow' class="fa fa-angle-down"></i>
+        </div>
+    </div>
+    <video id="background-video" autoplay loop muted>
+        <source {{ with .Params.header_image }}src="{{ . }}"{{ end }} type="video/webm">
+    </video>
+</header>
+<main class="content" role="main">
+
+    <div class='fixed-nav'>
+    </div>
+    {{ range $index_val, $elem_val := $filtered }}
+        <div class='post-holder'>
+            <article id='{{ anchorize .Title }}' class='post {{ if eq $index_val 0 }}first{{ end }} {{ if eq (add $index_val 1) (len $sections) }}last{{ end }}'>
+                <header class="post-header">
+                    <h2 class="post-title">{{ .Title }}</h2>
+                </header>
+                <section class="post-content">
+                    {{ .Content }}
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    {{ end }}
+</main>
+{{ end }}
