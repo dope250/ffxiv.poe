@@ -12,3 +12,7 @@ Ideas or other stuff you want to talk about? Feel free to hit me up!
 Used ingame characters:
 
 * {{<icon class="fa fa-address-card">}}&nbsp;[Thiegaud Robairlaint](https://eu.finalfantasyxiv.com/lodestone/character/47255426/)
+
+Screenshots; Names; Videos: 
+
+* Copyright (c) SQUARE ENIX CO.,LTD.AllRightsReserved. 
