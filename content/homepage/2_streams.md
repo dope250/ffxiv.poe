@@ -4,6 +4,10 @@ weight: 2
 header_menu: true
 ---
 
+#### Twitch.tv
+
+{{< Twitch >}}
+
 #### PeerTube
 
 {{< ePingTube >}}
@@ -11,7 +15,3 @@ header_menu: true
 #### YouTube
 
 {{< YouTube >}}
-
-#### Twitch.tv
-
-{{< Twitch >}}
