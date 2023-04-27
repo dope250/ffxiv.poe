@@ -4,7 +4,7 @@ weight: 3
 header_menu: true
 ---
 
-Ideas or other stuff you want to talk about? Feel free to hit me up!
+Events, locations which should be streamed or other ideas you want to talk about? Feel free to hit me up!
 
 * {{<icon class="fa fa-discord-alt">}}&nbsp;dope250#6917
 * {{<icon class="fa fa-mastodon">}}&nbsp;[Mastodon](https://ffxiv-mastodon.com/@dope250)
@@ -12,6 +12,11 @@ Ideas or other stuff you want to talk about? Feel free to hit me up!
 Used ingame characters:
 
 * {{<icon class="fa fa-address-card">}}&nbsp;[Thiegaud Robairlaint](https://eu.finalfantasyxiv.com/lodestone/character/47255426/)
+
+Latest streamed events:
+
+23-04-29
+: * Grand opening of "[Der Sprechende Dolch](https://dersprechendedolch.carrd.co/)" at Alpha/Light on Empyreum 8 P18
 
 Screenshots; Names; Videos: 
 
