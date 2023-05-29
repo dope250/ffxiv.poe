@@ -1,0 +1,5 @@
+public
+exampleSite/public
+node_modules
+*.lock
+.DS_Store
