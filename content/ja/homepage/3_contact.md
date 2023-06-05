@@ -12,7 +12,7 @@ header_menu: true
 使用したゲーム内キャラクター
 
 * {{<icon class="fa fa-address-card">}}&nbsp;[Thiegaud Robairlaint (EU)](https://eu.finalfantasyxiv.com/lodestone/character/47255426/)
-* {{<icon class="fa fa-address-card">}}&nbsp;[Thiegaud Robairlaint (JP)](#)
+* {{<icon class="fa fa-address-card">}}&nbsp;[Thiegaud Robairlaint (JP)](https://jp.finalfantasyxiv.com/lodestone/character/48022331/)
 
 最新のストリーミング イベント
 
