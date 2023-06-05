@@ -1,8 +1,10 @@
 {{ define "main" }}
+
 {{ $headless := .Site.GetPage "/homepage" }}
 {{ $sections := $headless.Resources.ByType "page" }}
 {{ $sections := cond .Site.BuildDrafts $sections (where $sections "Draft" "==" false) }}
 {{ $filtered := where $sections "Params.external" "==" nil }}
+
 
 <header id="site-head">
 
@@ -11,7 +13,7 @@
             {{ if .Site.Params.title_guard }}<div class="title-and-description-guard">{{ end }}
             {{ with .Params.header_headline }}<h1 class="blog-title">{{ . | safeHTML }}{{ end }} <br/>
             {{ with .Params.header_logo }}<img src="{{ . }}" width="100%">{{ end }} </h1>
-            {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
+            <h4 class="blog-description"><a href="/">English</a> | <a href="/de/">Deutsch</a> | <a href="/ja/">日本風</a></h4>
             {{ if .Site.Params.title_guard }}</div>{{ end }}
             {{ range where $sections ".Params.header_menu" "eq" true }}
               {{ if isset .Params "external" }}
@@ -24,7 +26,7 @@
         </div>
     </div>
     <video id="background-video" autoplay loop muted>
-        <source {{ with .Params.header_image }}src="{{ . }}"{{ end }} type="video/webm">
+        <source {{ with .Params.header_video }}src="{{ . }}"{{ end }} type="video/webm">
     </video>
 </header>
 <main class="content" role="main">

@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $headless := .Site.GetPage "/homepage" }}
+{{ $headless := .Site.GetPage "homepage" }}
 {{ $sections := $headless.Resources.ByType "page" }}
 {{ $sections := cond .Site.BuildDrafts $sections (where $sections "Draft" "==" false) }}
 {{ $filtered := where $sections "Params.external" "==" nil }}

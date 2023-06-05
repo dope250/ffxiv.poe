@@ -6,7 +6,7 @@ header_menu: true
 
 Events, locations which should be streamed or other ideas you want to talk about? Feel free to hit me up!
 
-* {{<icon class="fa fa-discord-alt">}}&nbsp;dope250#6917
+* {{<icon class="fa fa-discord-alt">}}&nbsp; dope250#6917
 * {{<icon class="fa fa-mastodon">}}&nbsp;[Mastodon](https://ffxiv-mastodon.com/@dope250)
 
 Used ingame characters:

@@ -4,12 +4,26 @@ baseURL = "https://poe.electronicping.net"
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+
 
 # The name of this wonderful theme ;-).
 theme = "hugo-scroll"
 
 # The browser tab name
 title = "Places of Eorzea"
+
+[languages]
+    [languages.en]
+        weight = 1
+        contentDir = "content/en"
+    [languages.de]
+        weight = 2
+        contentDir = "content/de"
+    [languages.ja]
+        weight = 3
+        contentDir = "content/ja"
 
 # Theme-specific variables
 [params]
