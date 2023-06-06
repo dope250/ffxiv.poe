@@ -8,6 +8,8 @@ header_menu: true
 
 {{< Twitch >}}
 
+* 午後6時から午後9時頃にアクティブなチャットで可能（MEZ）
+
 #### PeerTube
 
 {{< ePingTube >}}
