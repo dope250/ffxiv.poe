@@ -3,3 +3,4 @@ exampleSite/public
 node_modules
 *.lock
 .DS_Store
+content/.DS_Store
