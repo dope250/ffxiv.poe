@@ -10,10 +10,14 @@ header_menu: true
 
 * 午後6時から午後9時頃にアクティブなチャットで可能（MEZ）
 
-#### PeerTube
-
-{{< ePingTube >}}
-
 #### YouTube
 
 {{< YouTube >}}
+
+#### Kick.com
+
+{{< Kick >}}
+
+#### PeerTube
+
+{{< ePingTube >}}

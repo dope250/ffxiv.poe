@@ -10,10 +10,14 @@ header_menu: true
 
 * Possible in chat active around 6pm - 9pm (MEZ)
 
-#### PeerTube
-
-{{< ePingTube >}}
-
 #### YouTube
 
 {{< YouTube >}}
+
+#### Kick.com
+
+{{< Kick >}}
+
+#### PeerTube
+
+{{< ePingTube >}}
