@@ -18,6 +18,10 @@ header_menu: true
 
 {{< Kick >}}
 
+#### Steam
+
+{{< Steam >}}
+
 #### PeerTube
 
 {{< ePingTube >}}
