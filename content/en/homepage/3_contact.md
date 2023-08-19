@@ -17,6 +17,9 @@ Used ingame characters:
 
 Latest streamed events:
 
+23-09-29
+: * [LunarCon 2023](https://www.lunarcon.net)
+
 23-04-29
 : * Grand opening of "[Der Sprechende Dolch](https://dersprechendedolch.carrd.co/)" at Alpha/Light on Empyreum 8 P18
 

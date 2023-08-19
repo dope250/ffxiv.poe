@@ -17,6 +17,9 @@ Verwendete Charaktere im Spiel:
 
 Letzte übertragende Events:
 
+23-09-29
+: * [LunarCon 2023](https://www.lunarcon.net)
+
 23-04-29
 : * Eröffnung "[Der Sprechende Dolch](https://dersprechendedolch.carrd.co/)" auf Alpha/Light; Empyreum 8 Platz 18
 

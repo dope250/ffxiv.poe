@@ -17,6 +17,9 @@ header_menu: true
 
 最新のストリーミング イベント
 
+23-09-29
+: * [LunarCon 2023](https://www.lunarcon.net)
+
 23-04-29
 : * グランドオープン "[Der Sprechende Dolch](https://dersprechendedolch.carrd.co/)" Alpha/Light-Empyreum 8 P18
 
