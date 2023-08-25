@@ -21,7 +21,3 @@ header_menu: true
 #### Steam
 
 {{< Steam >}}
-
-#### PeerTube
-
-{{< ePingTube >}}
