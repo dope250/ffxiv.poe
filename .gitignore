@@ -6,3 +6,4 @@ node_modules
 content/.DS_Store
 layouts/.DS_Store
 static/.DS_Store
+.DS_Store
