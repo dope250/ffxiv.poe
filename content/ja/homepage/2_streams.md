@@ -4,20 +4,6 @@ weight: 2
 header_menu: true
 ---
 
-#### Twitch.tv
+#### Owncast
 
-{{< Twitch >}}
-
-* 午後6時から午後9時頃にアクティブなチャットで可能（MEZ）
-
-#### YouTube
-
-{{< YouTube >}}
-
-#### Kick.com
-
-{{< Kick >}}
-
-#### Steam
-
-{{< Steam >}}
+{{< Owncast >}}
