@@ -8,3 +8,6 @@ header_menu: true
 
 {{< Owncast >}}
 
+#### Kick
+
+{{< Kick >}}

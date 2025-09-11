@@ -7,3 +7,7 @@ header_menu: true
 #### Owncast
 
 {{< Owncast >}}
+
+#### Kick
+
+{{< Kick >}}
