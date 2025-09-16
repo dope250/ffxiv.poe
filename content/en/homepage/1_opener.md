@@ -3,8 +3,6 @@ title: "Hey!"
 weight: 1
 ---
 
-## Places of Eorzea: A 24/7 Journey Through Eorzea
-
 Welcome, adventurer, to **Places of Eorzea**, a passion project dedicated to bringing the beautiful, ever-changing world of Final Fantasy XIV directly to you. This is more than just a stream; it's a window into the daily life of Eorzea, running non-stop, 24 hours a day, 7 days a week. My mission is to capture the quiet, ambient moments of this vibrant world—the bustling streets of Limsa Lominsa, the serene landscapes of the Black Shroud, and the breathtaking vistas of the Dravanian Forelands.
 
 ## My Inspiration: A Nostalgic Vibe
